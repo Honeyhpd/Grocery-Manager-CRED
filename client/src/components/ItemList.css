@@ -1,0 +1,64 @@
+.item-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  max-width: 700px;
+}
+
+
+/* Make sure the row contents align like columns */
+.item-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.item-row span {
+  flex: 1;
+  text-align: center;
+  font-weight: 500;
+}
+
+.item-row input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Button styling */
+.item-card button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.9rem;
+}
+
+/* Specific Button Styles */
+.edit-btn {
+  background-color: #007bff; /* blue */
+  color: white;
+}
+
+.save-btn {
+  background-color: #28a745; /* green */
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545; /* red */
+  color: white;
+}
+
+.item-card button:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,57 @@
+.item-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.item-row, .item-header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 2fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-start;
+}
+.item-header {
+  font-weight: bold;
+  background-color: #e6e6e6;
+  border-bottom: 2px solid #ccc;
+}
+
+.item-card input {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.item-card button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+.save-btn {
+  background-color: #28a745;
+  color: white;
+}
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.item-card button:hover {
+  opacity: 0.9;
+}
